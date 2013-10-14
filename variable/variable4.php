@@ -1,7 +1,7 @@
 <html>
 <body>
 <?php
-$a = 100;
+$a = 1000;
 $a = $a + 10;
 print $a.'<br />';
 $a = $a / 10;
