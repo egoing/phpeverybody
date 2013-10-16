@@ -6,7 +6,6 @@ while($i <= 10){
 	echo "coding everybody{$i}<br />";
 	$i++;
 }
-
 ?>
 </body>
 </html>
