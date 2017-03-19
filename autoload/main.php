@@ -6,5 +6,5 @@ function autoloader($path){
   require_once $path;
 }
 spl_autoload_register('autoloader');
-new Hi();
-new Bye();
+new \en\Hi();
+new \ko\Hi();

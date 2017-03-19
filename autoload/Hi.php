@@ -1,16 +1,16 @@
 <?php
-namespace en;
+namespace greeting\en;
 class Hi{
   function __construct(){
     echo '<h1>hi</h1>';
   }
 }
-namespace ko;
+namespace greeting\ko;
 class Hi{
   function __construct(){
     echo '<h1>안녕</h1>';
   }
 }
-new \en\Hi();
-new \ko\Hi();
+new \greeting\en\Hi();
+new \greeting\ko\Hi();
 ?>
