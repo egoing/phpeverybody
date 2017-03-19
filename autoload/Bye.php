@@ -1,7 +1,7 @@
 <?php
-class Hi{
+class Bye{
   function __construct(){
-    echo 'hi';
+    echo '<h1>bye</h1>';
   }
 }
 ?>
