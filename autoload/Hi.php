@@ -11,7 +11,8 @@ class Hi{
     echo '<h1>안녕</h1>';
   }
 }
-use \greeting\en, \greeting\ko;
-new en\Hi();
-new ko\Hi();
+use \greeting\en\Hi as HiEn;
+use \greeting\ko\Hi as HiKo;
+new HiEn();
+new HiKo();
 ?>
